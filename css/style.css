@@ -286,3 +286,11 @@ footer {
         padding: 10px 16px;
     }
 }
+
+@media (max-width: 768px) {
+    .footer-flex {
+        flex-direction: column-reverse;
+        gap: 8px;
+        text-align: center;
+    }
+}
